@@ -5,3 +5,5 @@ Original data storage for 3 dimensional product tables: 19.156+0.008+0.008= 19.1
 <br />
 For building a single dimensional table as ‘newDimProduct’, the data storage space consumes 5.852MB, and yields a 69.48% decrease comparing to the original data space for the snowflake design.(The real data storage space may vary.) Depending on the result, there is not worthwhile to require a complex snowflake query for the database design. The Product dimension is only a small component of the entire database and only 606 rows in the sample dataset. If we put the dataset into reality and encourage snowflake design to every dimension, the storage data space will be huge and significantly reduce the processing speed. 
 
+<br />
+![snowflake design](https://cloud.githubusercontent.com/assets/23022508/24051058/401a2af8-0b07-11e7-88ae-02da186fa7f4.PNG)
