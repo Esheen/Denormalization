@@ -1,4 +1,3 @@
-/*YIXIN LUO*/
 
 use AdventureWorksDW2012;
 go
